@@ -26,7 +26,7 @@ import ffmpeg
 import datetime
 import subprocess
 
-i18n = I18nAuto()
+#i18n = I18nAuto()
 # 判断是否有能用来训练和加速推理的N卡
 ncpu = cpu_count()
 ngpu = torch.cuda.device_count()
