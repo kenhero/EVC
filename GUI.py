@@ -24,7 +24,7 @@ from sklearn.cluster import MiniBatchKMeans
 
 from configs.config import Config
 from i18n.i18n import I18nAuto
-from easy-infer2 import (
+from easy_infer2 import (
     change_info,
     extract_small_model,
     merge,
