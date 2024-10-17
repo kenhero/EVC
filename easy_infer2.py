@@ -21,7 +21,7 @@ os.makedirs(os.path.join(now_dir, "weights"), exist_ok=True)
 os.environ["TEMP"] = tmp
 warnings.filterwarnings("ignore")
 torch.manual_seed(114514)
-from i18n import I18nAuto
+#from i18n import I18nAuto
 import ffmpeg
 import datetime
 import subprocess
