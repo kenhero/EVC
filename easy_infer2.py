@@ -8,7 +8,7 @@ import faiss
 from random import shuffle
 import scipy.io.wavfile as wavfile
 from mega import Mega
-from config import Config
+#from config import Config
 from pyngrok import ngrok
 now_dir = os.getcwd()
 sys.path.append(now_dir)
